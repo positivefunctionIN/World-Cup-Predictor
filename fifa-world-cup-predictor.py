@@ -241,7 +241,6 @@ with tab2:
     
     st.warning("🏆 Click 'Predict Match' in the Match Predictor tab to see predictions!")
 
-
 with tab3:
     st.subheader("📊 Team Statistics")
     
@@ -260,6 +259,5 @@ with tab3:
     df = pd.DataFrame(stats_data)
     st.dataframe(df, hide_index=True, use_container_width=True)
 
-# Footer
 st.markdown("---")
 st.caption("⚽ FIFA World Cup 2026 Predictor | Built with Streamlit")
